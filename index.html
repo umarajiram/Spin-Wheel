@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spin wheel</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <div class="mainbox" id="mainbox">
+      <div class="box" id="box">
+        <div class="box1">
+          <span class="font span1"><h4>Smart TV 34 Inc</h4></span>
+          <span class="font span2"><h4>Asus ROG</h4></span>
+          <span class="font span3"><h4>Air Conditioner</h4></span>
+          <span class="font span4"><h4>Speaker portables</h4></span>
+          <span class="font span5"><h4>Playstation 4 Slim</h4></span>
+        </div>
+        <div class="box2">
+          <span class="font span1"><h4>Zonk</h4></span>
+          <span class="font span2"><h4>Headset Gaming</h4></span>
+          <span class="font span3"><h4>Ipad Mini 5</h4></span>
+          <span class="font span4"><h4>Camera Sport Action</h4></span>
+          <span class="font span5"><h4>Drone Mini T67</h4></span>
+        </div>
+      </div>
+      <button class="spin" onclick="spin()">SPIN</button>
+    </div>
+    <audio
+      controls="controls"
+      id="applause"
+      src="assets/applause.mp3"
+      type="audion/mp3"
+    ></audio>
+    <audio
+      controls="controls"
+      id="wheel"
+      src="assets/wheel.mp3"
+      type="audion/mp3"
+    ></audio>
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
